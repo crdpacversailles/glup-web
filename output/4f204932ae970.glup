@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content xmlns="http://www.crdp.ac-versailles.fr">
+  <data>
+    <parametres>
+      <specifiques>
+        <delai-moyen-entre-mots>
+				1
+			</delai-moyen-entre-mots>
+        <affichage-simultane-min>
+				2
+			</affichage-simultane-min>
+        <affichage-simultane-max>
+				4
+			</affichage-simultane-max>
+      </specifiques>
+      <generaux>
+        <score>oui</score>
+        <chrono> oui</chrono>
+        <musique> oui</musique>
+        <afficher_decompte> oui</afficher_decompte>
+        <duree_chrono>30</duree_chrono>
+        <taille_police> 18 </taille_police>
+      </generaux>
+    </parametres>
+  </data>
+  <data>
+    <nom_jeu xmlns=""> Voilà un jeu</nom_jeu>
+    <consigne xmlns=""> C'est mon jeu !</consigne>
+    <enonces xmlns="">
+      <enonce statut="true">Plouf, monsieur</enonce>
+      <enonce statut="false">Plouf, madame</enonce>
+      <enonce statut="false">Badaboum</enonce>
+    </enonces>
+  </data>
+</content>

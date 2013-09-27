@@ -1,0 +1,20 @@
+<options xmlns="http://www.crdp.ac-versailles.fr/glup/2012">
+	<parametres>
+		<specifiques>
+			<duree_extinction duree="oui">
+				10
+			</duree_extinction>
+			<melanger_phrases>
+				oui
+			</melanger_phrases>
+		</specifiques>
+		<generaux>
+			<score> non </score>
+			<chrono> oui </chrono>
+			<musique type="fixe"> non</musique>
+			<afficher_decompte> oui</afficher_decompte>
+			<duree_chrono> 60 </duree_chrono>
+			<taille_police> 24 </taille_police>
+		</generaux>
+	</parametres>
+</options>

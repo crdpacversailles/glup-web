@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glup xmlns="http://www.crdp.ac-versailles.fr">
+  <options jeu="POP-MOTS" langue="fr" largeur="455" hauteur="455">
+    <parametres>
+      <generaux>
+        <taille_police>45</taille_police>
+        <score>non</score>
+        <musique>non</musique>
+        <afficher_decompte>non</afficher_decompte>
+        <chrono>non</chrono>
+        <duree_chrono>30</duree_chrono>
+      </generaux>
+      <specifiques>
+        <affichage-simultane-min>4</affichage-simultane-min>
+        <affichage-simultane-max>5</affichage-simultane-max>
+        <delai-moyen-entre-mots>4</delai-moyen-entre-mots>
+      </specifiques>
+    </parametres>
+  </options>
+  <contenu exercice="TRIER-LES-MOTS">
+    <nom_jeu xmlns=""> ksdjmghsdkmq</nom_jeu>
+    <consigne xmlns=""> Consigne présentée à l'élève </consigne>
+    <enonces xmlns="">
+      <enonce statut="false">Ajouter un énoncé (mot, expression, phrase)</enonce>
+      <enonce statut="false">Ajouter un énoncé (mot, expression, phrase)</enonce>
+    </enonces>
+  </contenu>
+  <mode_emploi>
+    <paragraphe>Vous pouvez compléter ou modifier le mode d'emploi par défaut </paragraphe>
+    <paragraphe>Mais attention ! N'oublie pas de lire le texte inscrit sur chaque ballon ! Ne crève un ballon que si le texte repond à la consigne...Mode d'emploi du jeu </paragraphe>
+    <paragraphe>Pour chaque ballon qui éclate, si c'est une bonne réponse, tu gagnes un point. Mais si tu t'es trompé, tu perds un point !</paragraphe>
+  </mode_emploi>
+</glup>

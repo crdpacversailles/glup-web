@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<pedagogie id="SOULIGNER-LES-MOTS" actif="1">
+		<jeux>
+			<jeu id="MOTS-TRIS" actif="1">
+				<titre>Mots-Tris</titre>
+				<options>
+					<option id="score">indef</option>
+					<option id="chrono">non</option>
+					<option id="musique">non</option>
+					<option id="afficher_decompte">non</option>
+					
+				</options>
+			</jeu>
+			<jeu id="BRULE-MOTS" actif="1">
+				<titre>Brule-mots</titre>
+				<options>
+					<option id="score">indef</option>
+					<option id="chrono">indef</option>
+					<option id="musique">non</option>
+					<option id="afficher_decompte">indef</option>
+				</options>
+			</jeu>
+		</jeux>
+	</pedagogie>
+	<pedagogie id="TRIER-LES-MOTS" actif="1">
+		<jeux>
+			<jeu id="POP-MOTS" actif="1">
+				<titre>Pop-mots</titre>
+				<options>
+					<option id="score">indef</option>
+					<option id="chrono">indef</option>
+					<option id="musique">oui</option>
+					<option id="afficher_decompte">oui</option>
+				</options>
+			</jeu>
+
+		</jeux>
+	</pedagogie>
+	<pedagogie id="COMPLETER-AVEC-LES-MOTS" actif="0">
+		<jeux>
+
+		</jeux>
+	</pedagogie>
+</data>

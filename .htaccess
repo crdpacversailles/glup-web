@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^([\w]+)\+([\w]+)$ .?page=$1&action=$2 [L]
+RewriteRule ^([\w]+)$ .?page=$1 
+

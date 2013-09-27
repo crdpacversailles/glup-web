@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" version="1.0"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.crdp.ac-versailles.fr/glup/2012"
+	xmlns="http://www.crdp.ac-versailles.fr/glup/2012">
+	<xsd:simpleType name="collapsedInt">
+		<xsd:restriction base="xsd:int">
+			<xsd:whiteSpace value="collapse" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="options">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="parametres" />
+			</xsd:sequence>
+
+			<xsd:attribute name="jeu">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:whiteSpace value="collapse" />
+						<xsd:enumeration value="POP-MOTS" />
+						<xsd:enumeration value="MOTS-TRIS" />
+						<xsd:enumeration value="BRULE-MOTS" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="langue">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:whiteSpace value="collapse" />
+						<xsd:enumeration value="fr" />
+						<xsd:enumeration value="en" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="largeur" type="collapsedInt" />
+			<xsd:attribute name="hauteur" type="collapsedInt" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="parametres">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element ref="specifiques" />
+				<xsd:element ref="generaux" />
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="generaux">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element name="score">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="oui-non">
+								<xsd:attribute name="type" type="xsd:string" use="optional"
+									fixed="fixe" />
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="chrono">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="oui-non">
+								<xsd:attribute name="type" type="xsd:string" use="optional"
+									fixed="fixe" />
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="musique">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="oui-non">
+								<xsd:attribute name="type" type="xsd:string" use="optional"
+									fixed="fixe" />
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="afficher_decompte">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="oui-non">
+								<xsd:attribute name="type" type="xsd:string" use="optional"
+									fixed="fixe" />
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="duree_chrono" type="collapsedInt" />
+				<xsd:element name="taille_police" type="collapsedInt" />
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:simpleType name="oui-non">
+		<xsd:restriction base="xsd:string">
+			<xsd:whiteSpace value="collapse" />
+			<xsd:enumeration value="oui" />
+			<xsd:enumeration value="non" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="specifiques">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element name="intervalle_min" minOccurs="0"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="collapsedInt">
+								<xsd:attribute name="duree" type="oui-non" use="optional" />
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="intervalle_max" minOccurs="0"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="collapsedInt">
+								<xsd:attribute name="duree" type="oui-non" use="optional" />
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="delai-moyen-entre-mots" minOccurs="0"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="collapsedInt">
+								<xsd:attribute name="duree" type="oui-non" use="optional" />
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="affichage-simultane-min" minOccurs="0"
+					maxOccurs="1" type="collapsedInt" />
+				<xsd:element name="affichage-simultane-max" minOccurs="0"
+					maxOccurs="1" type="collapsedInt" />
+				<xsd:element name="duree_extinction" minOccurs="0"
+					maxOccurs="1">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="collapsedInt">
+								<xsd:attribute name="duree" type="oui-non" use="optional" />
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="melanger_phrases" minOccurs="0"
+					maxOccurs="1" type="oui-non" />
+				<xsd:element name="neutraliser_premier" minOccurs="0"
+					maxOccurs="1" type="oui-non" />
+
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="contenu">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="nom_jeu" type="xsd:string" />
+				<xsd:element name="consigne" type="xsd:string" />
+				<xsd:element ref="enonces" />
+			</xsd:sequence>
+			<xsd:attribute name="exercice" type="xsd:string" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="enonces">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element minOccurs="0"  maxOccurs="unbounded" ref="enonce" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="enonce">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:string">
+					<xsd:attribute name="statut" type="xsd:boolean" use="optional" />
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="mode_emploi">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="paragraphe" type="xsd:string"
+					minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="glup">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element ref="options" />
+				<xsd:element ref="contenu" />
+				<xsd:element ref="mode_emploi" />
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,57 @@
+.editeur_selecteur p.edition {
+ 	border:6px groove #000000;
+ 	background-color: #EEEEEE;
+ 	height:1.5em;
+ 	padding:20px;
+ 	overflow-x : scroll; 
+ 	overflow-y : hidden; 
+}
+.editeur_selecteur div.boutons_permanents {
+	text-align:right;
+}
+.editeur_selecteur div.boutons_edition img {
+	margin-left:20px;
+}
+.editeur_selecteur img {
+	width:20px;
+}
+.editeur_selecteur {
+	width:800px;
+}
+.editeur_selecteur img {
+	cursor:pointer;
+	padding:1px;
+}
+.editeur_selecteur p {
+	border:thin solid #000000;
+	background-color: #FFFFFF;
+	padding :5px;
+}
+.editeur_selecteur img:hover {
+background-color: #EEEEEE;
+border:1px solid #000000;
+padding:0px;
+}
+.editeur_selecteur p span.select {
+background-color: #5880db;
+color:#fdf643;
+}
+.editeur_selecteur p span.curseur {
+border-right:1px ridge #000000;
+padding-right:0px;
+}
+.editeur_selecteur p span {
+padding-right:1px;
+}
+.editeur_selecteur p span.enregistrement{
+border:5px solid #61ac78;
+}
+
+
+body {
+margin-left:auto;
+margin-right:auto;
+width: 800px;
+font-family:arial, helvetica, sans-serif;
+font-size:18px;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glup xmlns="http://www.crdp.ac-versailles.fr">
+  <options jeu="MOTS-TRIS">
+    <parametres>
+      <generaux>
+        <taille_police>24</taille_police>
+        <score>oui</score>
+        <musique>non</musique>
+        <afficher_decompte>non</afficher_decompte>
+        <chrono>non</chrono>
+        <duree_chrono>0</duree_chrono>
+        <langue>fr</langue>
+      </generaux>
+      <specifiques>
+        <intervalle_min>100</intervalle_min>
+        <intervalle_max>50</intervalle_max>
+        <neutraliser_premier>non</neutraliser_premier>
+      </specifiques>
+    </parametres>
+    <mode_emploi>
+      <paragraphe>
+		Dans Tetris phrases, les phrases tombent les unes après les autres et s'empilent. Attention, si le haut de la fenêtre est atteint, c'est perdu !
+		</paragraphe>
+      <paragraphe>
+		Pour gagner, il faut faire disparaître les phrases le plus vite possible. Pour cela, clique sur les mots qui répondent à la consigne !
+ 		</paragraphe>
+      <paragraphe>
+		Mais attention : si tu te trompes, le mot va grossir et la phrase va rester bloquée. Elle ne pourra plus descendre...
+ 		</paragraphe>
+      <paragraphe>
+		Si tu trouves un mot correct et qu'il devient vert, c'est qu'il y a encore d'autres mots à trouver dans la phrase.
+ 		</paragraphe>
+      <paragraphe>
+		Lorsqu'il ne reste plus de phrases, c'est gagné ! Tu connaîtras alors ton score. Et si tu réussis le "zéro faute", une surprise t'attend !
+ 		</paragraphe>
+    </mode_emploi>
+  </options>
+  <contenu>
+    <nom_jeu> ghjgj</nom_jeu>
+    <consigne> gjgdjj</consigne>
+    <enonces>
+      <enonce>ghjgghjghjghgh [balou] balou</enonce>
+      <enonce>[ghjgghjghjghgh] balou balou</enonce>
+    </enonces>
+  </contenu>
+</glup>

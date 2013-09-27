@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glup xmlns="http://www.crdp.ac-versailles.fr">
+  <options jeu="MOTS-TRIS" langue="fr">
+    <parametres>
+      <generaux>
+        <taille_police>33</taille_police>
+        <score>oui</score>
+        <musique>non</musique>
+        <afficher_decompte>non</afficher_decompte>
+        <chrono>non</chrono>
+        <duree_chrono>0</duree_chrono>
+      </generaux>
+      <specifiques>
+        <intervalle_min>33</intervalle_min>
+        <intervalle_max>33</intervalle_max>
+        <neutraliser_premier>non</neutraliser_premier>
+      </specifiques>
+    </parametres>
+  </options>
+  <contenu exercice="SOULIGNER-LES-MOTS">
+    <nom_jeu> Un jeu de test !</nom_jeu>
+    <consigne> On présente la consigne à l'élève !</consigne>
+    <enonces>
+      <enonce>[Le] fromage_blanc</enonce>
+      <enonce>Le [nougat]</enonce>
+      <enonce>Le [chou]-fleur</enonce>
+    </enonces>
+  </contenu>
+  <mode_emploi>
+    <paragraphe xmlns="">J'ai écrit des trucs !</paragraphe>
+    <paragraphe xmlns="">J'ai écrit des trucs !J'ai écrit des trucs !</paragraphe>
+    <paragraphe xmlns="">J'ai écrit des trucs !J'ai écrit des trucs !J'ai écrit des trucs !</paragraphe>
+  </mode_emploi>
+</glup>

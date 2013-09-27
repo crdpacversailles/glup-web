@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<crdp:data xmlns:crdp="http://www.crdp.ac-versailles.fr"><crdp:parametres><crdp:specifiques><crdp:intervalle_min duree="oui">
+				10
+			</crdp:intervalle_min><crdp:intervalle_max duree="oui">
+				50
+			</crdp:intervalle_max></crdp:specifiques><crdp:neutraliser_premier>
+				non
+		</crdp:neutraliser_premier><crdp:generaux><crdp:score>oui</crdp:score><crdp:chrono type="fixe"> non </crdp:chrono><crdp:musique type="fixe"> non</crdp:musique><crdp:afficher_decompte type="fixe"> non</crdp:afficher_decompte><crdp:duree_chrono> 0 </crdp:duree_chrono><crdp:taille_police> 24 </crdp:taille_police><crdp:langue>fr</crdp:langue></crdp:generaux></crdp:parametres><crdp:mode_emploi><crdp:paragraphe>
+		Dans Tetris phrases, les phrases tombent les unes apr&#xE8;s les autres et s'empilent. Attention, si le haut de la fen&#xEA;tre est atteint, c'est perdu !
+		</crdp:paragraphe><crdp:paragraphe>
+		Pour gagner, il faut faire dispara&#xEE;tre les phrases le plus vite possible. Pour cela, clique sur les mots qui r&#xE9;pondent &#xE0; la consigne !
+ 		</crdp:paragraphe><crdp:paragraphe>
+		Mais attention : si tu te trompes, le mot va grossir et la phrase va rester bloqu&#xE9;e. Elle ne pourra plus descendre...
+ 		</crdp:paragraphe><crdp:paragraphe>
+		Si tu trouves un mot correct et qu'il devient vert, c'est qu'il y a encore d'autres mots &#xE0; trouver dans la phrase.
+ 		</crdp:paragraphe><crdp:paragraphe>
+		Lorsqu'il ne reste plus de phrases, c'est gagn&#xE9; ! Tu conna&#xEE;tras alors ton score. Et si tu r&#xE9;ussis le "z&#xE9;ro faute", une surprise t'attend !
+ 		</crdp:paragraphe></crdp:mode_emploi></crdp:data>

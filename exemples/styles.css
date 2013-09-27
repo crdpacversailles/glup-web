@@ -1,0 +1,16 @@
+#flashContent 
+{
+	display:none;
+}
+body 
+{
+	background-color: #80bdeb;
+}
+.cadre
+{
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	padding:0px;
+	background-color:#e8e8e8;
+}

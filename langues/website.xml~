@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "xmldoctype.dtd">
+<language>
+	<xmldata id="inputID">
+		<translation lang="fr">ID de la balise</translation>
+		<translation lang="en-gb">Tag's ID</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="inputData">
+		<translation lang="fr">Données de la balise</translation>
+		<translation lang="en-gb">Tag's data</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="frLang">
+		<translation lang="fr">Français</translation>
+		<translation lang="en-gb">French</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="en-gbLang">
+		<translation lang="fr">Anglais</translation>
+		<translation lang="en-gb">English</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="deLang">
+		<translation lang="fr">Allemand</translation>
+		<translation lang="en-gb">German</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="submitModify">
+		<translation lang="fr">Modifier un élément</translation>
+		<translation lang="en-gb">Modify tag</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="submitCreate">
+		<translation lang="fr">Créer un nouvel élément</translation>
+		<translation lang="en-gb">Create new tag</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="inputLang">
+		<translation lang="fr">Choix de la langue</translation>
+		<translation lang="en-gb">Choose language</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="modifyXmlDone">
+		<translation lang="fr">Les modifications ont été effectuées !</translation>
+		<translation lang="en-gb">Changes saved successfully !</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="modifyXmlError">
+		<translation lang="fr">Erreur detectée ! Aucune sauvegarde faite.</translation>
+		<translation lang="en-gb">Error detected ! No save.</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="createXmlDone">
+		<translation lang="fr">Elément créé !</translation>
+		<translation lang="en-gb">New tag created !</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="createXmlError">
+		<translation lang="fr">Erreur ! L'élément existe sûrement.</translation>
+		<translation lang="en-gb">Error ! Tag already exists</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="newContent">
+		<translation lang="fr">Nouvelle valeur</translation>
+		<translation lang="en-gb">New data</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="submitTraduce">
+		<translation lang="fr">Effectuer la traduction</translation>
+		<translation lang="en-gb">Translate</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="foreignLang">
+		<translation lang="fr">Langue de traduction</translation>
+		<translation lang="en-gb">Translation language</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="submitChooseLang">
+		<translation lang="fr">Choisir cette langue</translation>
+		<translation lang="en-gb">Select this language</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="modificationDone">
+		<translation lang="fr">Les modifications sont sauvées !</translation>
+		<translation lang="en-gb">Modification saved!</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="modificationError">
+		<translation lang="fr">Une erreur s'est produite ! Prévenez le webmaster</translation>
+		<translation lang="en-gb">Changes saved!</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="element">
+		<translation lang="fr">Elément</translation>
+		<translation lang="en-gb">Element</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="deleteElement">
+		<translation lang="fr">Supprimer cet élément</translation>
+		<translation lang="en-gb">Delete this element</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="confirmDelete">
+		<translation lang="fr">Voulez-vous supprimer l'élément</translation>
+		<translation lang="en-gb">Do you want to delete this element</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="webPageName">
+		<translation lang="fr">Démonstration de XMLEngine</translation>
+		<translation lang="en-gb">XMLEngine demonstration</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="languageToCheck">
+		<translation lang="fr">Langue(s) à vérifier</translation>
+		<translation lang="en-gb">Language(s) to check</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="checkIt">
+		<translation lang="fr">Vérifier</translation>
+		<translation lang="en-gb">Check</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="checkLanguageDone">
+		<translation lang="fr">La langue est désormais accessible pour les utilisateurs !</translation>
+		<translation lang="en-gb">Language now available</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="fileCheckError">
+		<translation lang="fr">Le fichier suivant comprend des erreurs</translation>
+		<translation lang="en-gb">This file contains some errors</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TITRE">
+		<translation lang="fr">Générateur ludopédagogique du CRDP de l'Académie de versailles</translation>
+		<translation lang="en-gb">Educational serious game builder of the CRDP of the Versailles Academy</translation>
+		<translation lang="de">Spass-pädagogische Generator der CRDP der Académie de Versailles</translation>
+	</xmldata>
+	<xmldata id="ACCUEIL">
+		<translation lang="fr">Accueil</translation>
+		<translation lang="en-gb">Home</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="SAVOIR">
+		<translation lang="fr">En savoir plus</translation>
+		<translation lang="en-gb">Learn more</translation>
+		<translation lang="de">Mehr wissen</translation>
+	</xmldata>
+	<xmldata id="TESTER">
+		<translation lang="fr">Créer un jeu</translation>
+		<translation lang="en-gb">Create a game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="CONTRIBUER">
+		<translation lang="fr">Contribuer</translation>
+		<translation lang="en-gb">Contribute</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="ACCUEIL-BANDEAU">
+		<translation lang="fr">VERSION PROTOTYPE</translation>
+		<translation lang="en-gb">PROTOTYPE VERSION</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="ACCUEIL-PUCE-PRESENTATION">
+		<translation lang="fr">Glup est un service en ligne qui vous permet de transformer vos exercices à base de texte en mini-jeux  téléchargeables</translation>
+		<translation lang="en-gb">Glup is an online service that lets you turn your text-based exercises into downloadable mini-games</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="ACCUEIL-PUCE-TEST">
+		<translation lang="fr">Cette version de Glup vous propose déjà un type d’exercice et deux mini-jeux</translation>
+		<translation lang="en-gb">This version of Glup already offers a type of exercise and two mini-games</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="ACCUEIL-PUCE-CONTRIBUTION">
+		<translation lang="fr"> Pour mettre au point l’application définitive, vos contributions seront précieuses: suggestions de mini-jeux, signalement de bugs…</translation>
+		<translation lang="en-gb">To develop the final application, your contributions will be most invaluable : suggestions of mini-games, bug reports...</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="ACCUEIL-LIEN-PRESENTATION">
+		<translation lang="fr">en savoir plus</translation>
+		<translation lang="en-gb">learn more</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="ACCUEIL-LIEN-TEST">
+		<translation lang="fr">tester glup</translation>
+		<translation lang="en-gb">try it.</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="ACCUEIL-LIEN-CONTRIBUTION">
+		<translation lang="fr">contribuer</translation>
+		<translation lang="en-gb">contribute</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="MENU-TEST-INDEX">
+		<translation lang="fr">Démarrer</translation>
+		<translation lang="en-gb">Start</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="MENU-TEST-PEDAGOGIE">
+		<translation lang="fr">1. Principe pédagogique</translation>
+		<translation lang="en-gb">1. Educational goal</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="MENU-TEST-CONTENU">
+		<translation lang="fr">2. Contenu</translation>
+		<translation lang="en-gb">2. Contents</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="MENU-TEST-GAMEPLAY">
+		<translation lang="fr">3. Principe ludique</translation>
+		<translation lang="en-gb">3. Gameplay</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="MENU-TEST-OPTIONS">
+		<translation lang="fr">4. Options</translation>
+		<translation lang="en-gb">4. Options</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="MENU-TEST-MODE-EMPLOI">
+		<translation lang="fr">5. Mode d'emploi</translation>
+		<translation lang="en-gb">5. Game instructions</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="MENU-TEST-EXPORT">
+		<translation lang="fr">6. Import - export</translation>
+		<translation lang="en-gb">6. Import - export</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-DEMARRAGE-TITRE">
+		<translation lang="fr">Demarrage</translation>
+		<translation lang="en-gb">Start</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-DEMARRAGE-ANNONCE">
+		<translation lang="fr">Pour créer un jeu :</translation>
+		<translation lang="en-gb">To create a game :</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-DEMARRAGE-ITEM-PEDAGOGIE">
+		<translation lang="fr">Choisissez un principe pédagogique</translation>
+		<translation lang="en-gb">Select an educational goal</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-DEMARRAGE-ITEM-CONTENU">
+		<translation lang="fr">Saisissez le contenu de votre jeu</translation>
+		<translation lang="en-gb">Enter the contents of your game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-DEMARRAGE-ITEM-GAMEPLAY">
+		<translation lang="fr">Choisissez un principe ludique</translation>
+		<translation lang="en-gb">Select a gameplay</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-DEMARRAGE-ITEM-MODE-EMPLOI">
+		<translation lang="fr">Personnalisez le mode d'emploi</translation>
+		<translation lang="en-gb">Customize game instructions</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-DEMARRAGE-ITEM-OPTIONS">
+		<translation lang="fr">Configurez les options du jeu</translation>
+		<translation lang="en-gb">Configure game options</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-PEDAGOGIE-TITRE">
+		<translation lang="fr">Principe pédagogique</translation>
+		<translation lang="en-gb">Educational goal</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-PEDAGOGIE-INVITATION">
+		<translation lang="fr">Pour l’instant, seuls deux types d'exercices sont disponibles</translation>
+		<translation lang="en-gb">As to now, only one pedagogical goal is availaible </translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="EXPLICATION-CHOIX-PRINCIPE-PEDAGOGIQUE-PAR-DEFAUT">
+		<translation lang="fr">Le principe actuellement sélectionné figure en bleu.</translation>
+		<translation lang="en-gb">The goal currently selected is shown in blue.</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="EXPLICATION-CHOIX-GAMEPLAY-PAR-DEFAUT">
+		<translation lang="fr">Le principe actuellement sélectionné figure en bleu.</translation>
+		<translation lang="en-gb">The gameplay currently selected is shown in blue.</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-PEDAGOGIE-ITEM-SOULIGNER-LES-MOTS">
+		<translation lang="fr">Souligner les mots de la phrase</translation>
+		<translation lang="en-gb">Underline the words in the sentence</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-PEDAGOGIE-ITEM-TRIER-LES-MOTS">
+		<translation lang="fr">Trier les mots</translation>
+		<translation lang="en-gb">Sort the words</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-PEDAGOGIE-ITEM-COMPLETER-AVEC-LES-MOTS">
+		<translation lang="fr">Completer la phrase avec les mots</translation>
+		<translation lang="en-gb">Complete the sentence with the words</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-TITRE">
+		<translation lang="fr">Contenu pédagogique</translation>
+		<translation lang="en-gb">Educational contents</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-NOM-JEU">
+		<translation lang="fr">Nom du jeu</translation>
+		<translation lang="en-gb">Name of the game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-INVITATION">
+		<translation lang="fr">Veuillez saisir les contenus de votre exercice</translation>
+		<translation lang="en-gb">Please enter the contents of your exercise</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-CONSIGNE">
+		<translation lang="fr">Consigne présentée à l'élève</translation>
+		<translation lang="en-gb">Student's instructions</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-SOULIGNER-INVITATION-EDITEUR">
+		<translation lang="fr">Veuillez saisir ici une phrase et indiquer les bonnes réponses</translation>
+		<translation lang="en-gb">Please enter a sentence and select the correct answers</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-TRIER-INVITATION-EDITEUR">
+		<translation lang="fr">Veuillez saisir ici un énoncé : mot, expression ou phrase., </translation>
+		<translation lang="en-gb">
+		</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="BOUTON-AJOUTER-PHRASE">
+		<translation lang="fr">Ajouter une phrase</translation>
+		<translation lang="en-gb">Add a sentence</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="BOUTON-AJOUTER-ENONCE">
+		<translation lang="fr">Ajouter un énoncé (mot, expression, phrase)</translation>
+		<translation lang="en-gb">
+		</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-SOULIGNER-BULLE-SUPPRIMER">
+		<translation lang="fr">Supprimer cette phrase</translation>
+		<translation lang="en-gb">Remove this sentence</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-SOULIGNER-BULLE-ENREGISTRER-BONNE-REPONSE">
+		<translation lang="fr">Enregistrer comme bonne réponse</translation>
+		<translation lang="en-gb">Select as correct answer</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-SOULIGNER-BULLE-EFFACER-REPONSE">
+		<translation lang="fr">Effacer toutes les réponses</translation>
+		<translation lang="en-gb">Remove all answers</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-TRIER-PHRASE-SCORE">
+		<translation lang="fr">Vous avez saisi $1 réponse(s) juste(s) et $2 réponse(s) fausse(s)</translation>
+		<translation lang="en-gb">Remove all answers</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-BULLE-VALIDER-CONSIGNE">
+		<translation lang="fr">Valider ma saisie</translation>
+		<translation lang="en-gb">Save</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-BULLE-VALIDER-NOM-JEU">
+		<translation lang="fr">Valider ma saisie</translation>
+		<translation lang="en-gb">Save</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-TITRE">
+		<translation lang="fr">Choix du principe ludique</translation>
+		<translation lang="en-gb">Select a gameplay</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-INVITATION">
+		<translation lang="fr">Voici les jeux disponible pour le principe pédagogique : </translation>
+		<translation lang="en-gb">Here are the games available for the educational goal :</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-ITEM-MOTS-TRIS">
+		<translation lang="fr">Mots-tris</translation>
+		<translation lang="en-gb">Word Tetris</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-ITEM-BRULE-MOTS">
+		<translation lang="fr">Brule-mots</translation>
+		<translation lang="en-gb">Wordfire</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-ITEM-POP-MOTS">
+		<translation lang="fr">Pop'mots</translation>
+		<translation lang="en-gb">
+		</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-PRESENTATION-MOTS-TRIS">
+		<translation lang="fr">Dans ce jeu inspiré de Tétris, les phrases tombent du haut de l'écran et s'empilent. Cliquez sur les mots attendus pour empêcher la pile d'atteindre le haut de l'écran. </translation>
+		<translation lang="en-gb">In  this Tetris-like game, sentences pile up from the top of the display. Click on the right words to stop the pile reaching the top of the display</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-PRESENTATION-BRULE-MOTS">
+		<translation lang="fr">Essayez d'allumer simultanément tous les mots attendus. Les mots s'éteignent peu à peu, et surtout, à la moindre erreur, ils s'éteignent tous d'un coup.</translation>
+		<translation lang="en-gb">Burn all the right words simultaneously. They will burn out in their turn but any mistake and they will ALL burn out!</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-PRESENTATION-POP-MOTS">
+		<translation lang="fr">Les énoncés apparaissent et disparaissent à un rythme très rapide : juste le temps de cliquer sur ceux qui répondent à la consigne !</translation>
+		<translation lang="en-gb">
+		</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-JEU-INDISPONIBLE">
+		<translation lang="fr">Jeu disponible prochainement</translation>
+		<translation lang="en-gb">
+		</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-TITRE">
+		<translation lang="fr">Configurer les options du jeu</translation>
+		<translation lang="en-gb">Configure game options</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-INVITATION">
+		<translation lang="fr">Vous pouvez si vous le souhaitez modifier les caractéristiques du jeu : </translation>
+		<translation lang="en-gb">If you wish so you can change the game's features </translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-LARGEUR">
+		<translation lang="fr">Largeur totale du jeu</translation>
+		<translation lang="en-gb">Total width of the game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-HAUTEUR">
+		<translation lang="fr">Hauteur totale du jeu</translation>
+		<translation lang="en-gb">Total height of the game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-TAILLE-POLICE">
+		<translation lang="fr">Taille des textes dans le jeu</translation>
+		<translation lang="en-gb">Size of game text</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-SCORE">
+		<translation lang="fr">Afficher un score</translation>
+		<translation lang="en-gb">Display a score</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-MUSIQUE">
+		<translation lang="fr">Jouer la musique</translation>
+		<translation lang="en-gb">Play music</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-AFFICHER-DECOMPTE">
+		<translation lang="fr">Afficher le decompte des réponses restant à trouver</translation>
+		<translation lang="en-gb">View the count of remaining answers to find</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-CHRONO">
+		<translation lang="fr">Afficher un chronomètre</translation>
+		<translation lang="en-gb">Display a timer</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-DUREE-CHRONO">
+		<translation lang="fr">Duree du chronomètre</translation>
+		<translation lang="en-gb">Timer duration</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-BRULE-MOTS-DUREE-EXTINCTION">
+		<translation lang="fr">Durée d'extinction d'un mot (en secondes)</translation>
+		<translation lang="en-gb">Duration of word burn out (in seconds)</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-MOTS-TRIS-INTERVALLE-MIN">
+		<translation lang="fr">Intervalle minimum entre deux phrases (en secondes)</translation>
+		<translation lang="en-gb">Minimum interval between two sentences (in seconds)</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-MOTS-TRIS-INTERVALLE-MAX">
+		<translation lang="fr">Intervalle maximum entre deux phrases (en millisecondes)</translation>
+		<translation lang="en-gb">Maximum interval between two sentences (in milliseconds)</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-POP-MOTS-DELAI-MOYEN-ENTRE-MOTS">
+		<translation lang="fr">Délai moyen d'apparition des ballons (en secondes)</translation>
+		<translation lang="en-gb">Average time between balls of balls (in seconds)
+		</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-POP-MOTS-AFFICHAGE-SIMULTANE-MIN">
+		<translation lang="fr">Nombre minimum de ballons affichés simultanément</translation>
+		<translation lang="en-gb">Minimum number of balloons displayed simultaneously
+		</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-POP-MOTS-AFFICHAGE-SIMULTANE-MAX">
+		<translation lang="fr">Nombre maximum de ballons affichés simultanément</translation>
+		<translation lang="en-gb">Maximum number of balloons displayed simultaneously
+		</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-ENREGISTRER">
+		<translation lang="fr">Sauvegarder les options</translation>
+		<translation lang="en-gb">Save features</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-AVERTISSEMENT-OPTION-NON-DISPO">
+		<translation lang="fr">Option non disponible pour ce jeu</translation>
+		<translation lang="en-gb">Option unavailable for this game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-MODE-EMPLOI-TITRE">
+		<translation lang="fr">Mode d'emploi du jeu</translation>
+		<translation lang="en-gb">Game instructions</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-MODE-EMPLOI-INVITATION">
+		<translation lang="fr">Vous pouvez compléter ou modifier le mode d'emploi par défaut</translation>
+		<translation lang="en-gb">You can complete or change the default user instructions</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-TITRE">
+		<translation lang="fr">Créer le jeu</translation>
+		<translation lang="en-gb">Create game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-INVITATION">
+		<translation lang="fr">Construisez, testez, téléchargez votre jeu</translation>
+		<translation lang="en-gb">Build, test, download your game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="BOUTON-AJOUTER-PARAGRAPHE">
+		<translation lang="fr">Ajoutez un paragraphe</translation>
+		<translation lang="en-gb">Add a paragraph</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-MODE-EMPLOI-ENREGISTRER">
+		<translation lang="fr">Sauvegarder le mode d'emploi</translation>
+		<translation lang="en-gb">Save game instructions</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="BOUTON-EXPORT-TELECHARGEMENT">
+		<translation lang="fr">Téléchargez votre jeu</translation>
+		<translation lang="en-gb">Download your game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="BOUTON-EXPORT-TEST">
+		<translation lang="fr">Testez votre jeu</translation>
+		<translation lang="en-gb">Test your game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="BOUTON-EXPORT-DONNEES">
+		<translation lang="fr">Exportez les données du jeu</translation>
+		<translation lang="en-gb">Export game data</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="BOUTON-IMPORT-DONNEES">
+		<translation lang="fr">Rechargez les données d'un jeu</translation>
+		<translation lang="en-gb">Reload game data</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-SOULIGNER-LES-MOTS-AVERTISSEMENT-SELECTIONS">
+		<translation lang="fr">Vous ne pouvez croiser ou imbriquer les selections</translation>
+		<translation lang="en-gb">You can not cross or nest selections</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-SOULIGNER-LES-MOTS-AVERTISSEMENT-SELECTION-VIDE">
+		<translation lang="fr">Selectionner un ou plusieurs mots avant d'appuyer sur le bouton bonne réponse</translation>
+		<translation lang="en-gb">Select one or more words before pressing the right answer button </translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-TEXTES">
+		<translation lang="fr">Textes de l'exercice</translation>
+		<translation lang="en-gb">Texts of the exercise</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-EXPLICATION-TELECHARGEMENT">
+		<translation lang="fr">Téléchargez votre jeu sous forme d'une animation flash (fichier swf) compressée au format zip</translation>
+		<translation lang="en-gb">Download your game as a flash animation (swf file) compressed in zip format</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-EXPLICATION-TEST">
+		<translation lang="fr">Testez votre jeu en ligne (dans votre navigateur)</translation>
+		<translation lang="en-gb">Test your game online (in your web browser)</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-EXPLICATION-EXPORT-DONNEES">
+		<translation lang="fr">Sauvegardez toutes les données du jeu sous forme d'un fichier glup</translation>
+		<translation lang="en-gb">Save all game data as a glup file</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-EXPLICATION-IMPORT-DONNEES">
+		<translation lang="fr">Rechargez un fichier glup</translation>
+		<translation lang="en-gb">Load a glup file again</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-AVERTISSEMENT-VIDE">
+		<translation lang="fr">Pour générer le jeu, il faut préalablement lui avoir donné un contenu</translation>
+		<translation lang="en-gb">To generate the game, it is first necessary to give him a content</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-AVERTISSEMENT-IMPORT-ECHEC">
+		<translation lang="fr">Votre fichier est peut-être corrompu, il n'a pu être analysé.</translation>
+		<translation lang="en-gb">Your file may be corrupted, it could not be analyzed.</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-AVERTISSEMENT-IMPORT-SUCCES">
+		<translation lang="fr">Votre fichier a été chargé avec succès.</translation>
+		<translation lang="en-gb">Your file was successfully loaded.</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-AVERTISSEMENT-DUREE">
+		<translation lang="fr">Veuillez patienter, la fabrication de votre jeu peut durer un certain temps</translation>
+		<translation lang="en-gb">Please wait, the production of your game may take a while</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="CONTRIBUTION-INVITATION">
+		<translation lang="fr">Faites-nous part de vos suggestions, remarques ou critiques</translation>
+		<translation lang="en-gb">Send us your suggestions, comments and criticisms</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="CONTRIBUTION-TITRE">
+		<translation lang="fr">Contribuer à Glup</translation>
+		<translation lang="en-gb">Contribute to Glup</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="CONTRIBUTION-MESSAGE">
+		<translation lang="fr">Votre message</translation>
+		<translation lang="en-gb">Your message</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="CONTRIBUTION-TEXTE-MESSAGE">
+		<translation lang="fr">Texte de votre message</translation>
+		<translation lang="en-gb">Message text</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="CONTRIBUTION-TITRE-MESSAGE">
+		<translation lang="fr">Titre de votre message</translation>
+		<translation lang="en-gb">Message title</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="CONTRIBUTION-ADRESSE-REPONSE">
+		<translation lang="fr">Adresse email de reponse</translation>
+		<translation lang="en-gb">Email adress for reply :</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-DEMARRAGE-ITEM-EXPORT">
+		<translation lang="fr">Créez votre jeu</translation>
+		<translation lang="en-gb">Build your game</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+
+	<xmldata id="AVERTISSEMENT-MESSAGE-VIDE">
+		<translation lang="fr">Rédigez un texte avant d'envoyer le message</translation>
+		<translation lang="en-gb">Write a text before sending the mail</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="AVERTISSEMENT-EMAIL-INVALIDE">
+		<translation lang="fr">L'adresse email n'est pas valide</translation>
+		<translation lang="en-gb">Invalid email adress</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="CONFIRMATION-ENVOI-EMAIL">
+		<translation lang="fr">Votre email a été envoyé.</translation>
+		<translation lang="en-gb">Your email has been sent.</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="INFIRMATION-ENVOI-EMAIL">
+		<translation lang="fr">Un incident a empêché l'envoi de votre message.</translation>
+		<translation lang="en-gb">An accident prevent your mail from being sent..</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-GAMEPLAY-LIEN">
+		<translation lang="fr">Exemple en ligne</translation>
+		<translation lang="en-gb">Online example </translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-CONTENU-SOULIGNER-BULLE-GROUPER-MOTS">
+		<translation lang="fr">Grouper les mots</translation>
+		<translation lang="en-gb">Group words </translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-EXPORT-INVITATION-LIEN-JEU">
+		<translation lang="fr">Cliquez ici pour voir votre jeu si la fenêtre popup ne s'est pas ouverte</translation>
+		<translation lang="en-gb">Click here to see your game if the window didn't pop-up.</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-PAR-DEFAUT">
+		<translation lang="fr">Revenir aux options par défaut</translation>
+		<translation lang="en-gb">Back to default options</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-MODE-EMPLOI-PAR-DEFAUT">
+		<translation lang="fr">Revenir au mode d'emploi par défaut</translation>
+		<translation lang="en-gb">Back to default instructions</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<!-- ajouts -->
+	<xmldata id="EMAILS-INACTIFS">
+		<translation lang="fr">L'envoi d'emails n'est pas encore fonctionnel</translation>
+		<translation lang="en-gb">Sending emails is not functional yet</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-BRULE-MOTS-MELANGER-PHRASES">
+		<translation lang="fr">Mélanger les phrases</translation>
+		<translation lang="en-gb">Mix phrases</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+	<xmldata id="TEST-OPTIONS-MOTS-TRIS-NEUTRALISER-PREMIER">
+		<translation lang="fr">Le premier terme est de type "x=" (jeux mathématiques)</translation>
+		<translation lang="en-gb">The first term is of "x=" type (mathematical games)</translation>
+		<translation lang="de">
+		</translation>
+	</xmldata>
+</language>

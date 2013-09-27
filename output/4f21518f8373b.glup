@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glup xmlns="http://www.crdp.ac-versailles.fr">
+  <options jeu="BRULE-MOTS" langue="fr" largeur="800" hauteur="600">
+    <parametres>
+      <specifiques>
+        <duree_extinction duree="oui">
+				10
+			</duree_extinction>
+        <melanger_phrases>
+				oui
+			</melanger_phrases>
+      </specifiques>
+      <generaux>
+        <score> non </score>
+        <chrono> oui </chrono>
+        <musique type="fixe"> non</musique>
+        <afficher_decompte> oui</afficher_decompte>
+        <duree_chrono> 60 </duree_chrono>
+        <taille_police> 24 </taille_police>
+      </generaux>
+    </parametres>
+  </options>
+  <contenu exercice="SOULIGNER-LES-MOTS">
+    <nom_jeu> Mon jeu à moi Mon jeu à moi</nom_jeu>
+    <consigne> Mon jeu à moi Mon jeu à moi Mon jeu à moi Mon jeu à moi </consigne>
+    <enonces>
+      <enonce>Mon jeu à moi Mon jeu à moi Mon jeu à moi Mon jeu à moi</enonce>
+      <enonce>Mon jeu à moi Mon jeu à moi Mon jeu à moi</enonce>
+      <enonce>Mon jeu à moi</enonce>
+    </enonces>
+  </contenu>
+  <mode_emploi>
+    <paragraphe>Dans Allumots, les bonnes réponses ont une étonnante propriété : elles sont inflammables !</paragraphe>
+    <paragraphe>Le but : arriver à allumer simultanément les bonnes réponses dans toutes les phrases affichées à l'écran.</paragraphe>
+    <paragraphe>Malheureusement, une fois qu'un mot est allumé, il commence à s'éteindre petit à petit...</paragraphe>
+    <paragraphe>Plus ennuyeux : si tu te trompes et que tu cliques sur un mauvais mot, toutes les flammes seront soufflées !</paragraphe>
+    <paragraphe>En cas d'erreur, tout est à recommencer... mais attention, le compte à rebours continue...</paragraphe>
+  </mode_emploi>
+</glup>

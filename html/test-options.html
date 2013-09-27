@@ -1,0 +1,52 @@
+<div class="corps_de_page" [POS_DEPART]>
+	<h1>4. {TEST-OPTIONS-TITRE} </h1>
+	<h2>{TEST-OPTIONS-INVITATION} {TEST-GAMEPLAY-ITEM-[CLE_GAMEPLAY]} </h2>
+	<div class="container_bouton_enregister_options">
+		<span class="bouton_texte bouton_enregister_options" id="bouton_enregister_options"> {TEST-OPTIONS-ENREGISTRER} </span>
+	</div>
+	<div class="container_bouton_options_par_defaut">
+		<span class="bouton_texte bouton_options_par_defaut" id="bouton_options_par_defaut"> {TEST-OPTIONS-PAR-DEFAUT} </span>
+	</div>
+	<div class="separateur_options">
+		<div class="widget_option option_generale">
+			<label for="largeur">{TEST-OPTIONS-LARGEUR}</label>
+			<input id="largeur" type="text" value="[largeur]" />
+		</div>
+		<div class="widget_option option_generale">
+			<label for="hauteur">{TEST-OPTIONS-HAUTEUR}</label>
+			<input id="hauteur" type="text" value="[hauteur]" />
+		</div>
+		<div class="widget_option option_generale">
+			<label for="taille_police">{TEST-OPTIONS-TAILLE-POLICE}</label>
+			<input  id="taille_police" type="text" value="[taille_police]"/>
+		</div>
+		<div class="balai_options"></div>
+	</div>
+	<div class="separateur_options">
+		<div class="widget_option option_generale">
+			<label for="score">{TEST-OPTIONS-SCORE}</label>
+			<input  id="score" type="checkbox" [score] />
+		</div>
+		<div class="widget_option option_generale">
+			<label for="musique">{TEST-OPTIONS-MUSIQUE}</label>
+			<input  id="musique" type="checkbox" [musique] />
+		</div>
+		<div class="widget_option option_generale">
+			<label for="afficher_decompte">{TEST-OPTIONS-AFFICHER-DECOMPTE}</label>
+			<input  id="afficher_decompte" type="checkbox" [afficher_decompte] />
+		</div>
+		<div class="widget_option option_generale">
+			<label for="chrono">{TEST-OPTIONS-CHRONO}</label>
+			<input  id="chrono" type="checkbox" [chrono] />
+		</div>
+		<div class="widget_option option_generale">
+			<label for="duree_chrono">{TEST-OPTIONS-DUREE-CHRONO}</label>
+			<input id="duree_chrono" type="text" value="[duree_chrono]" />
+		</div>
+		<div class="balai_options"></div>
+	</div>
+	<div class="separateur_options">
+		[OPTIONS-SPECIFIQUES] <div class="balai_options"></div>
+	</div>
+</div>
+<input type="hidden" id="modification_donnees" value="[MODIFICATION_DONNEES]" />

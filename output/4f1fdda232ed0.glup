@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<content xmlns="http://www.crdp.ac-versailles.fr">
+<data xmlns="http://www.crdp.ac-versailles.fr"><parametres><specifiques><intervalle_min duree="oui">
+				10
+			</intervalle_min><intervalle_max duree="oui">
+				50
+			</intervalle_max></specifiques><neutraliser_premier>
+				non
+		</neutraliser_premier><generaux><score>oui</score><chrono type="fixe"> non </chrono><musique type="fixe"> non</musique><afficher_decompte type="fixe"> non</afficher_decompte><duree_chrono> 0 </duree_chrono><taille_police> 24 </taille_police></generaux></parametres></data>
+<data xmlns="http://www.crdp.ac-versailles.fr"><nom_jeu> gjgj</nom_jeu><consigne> gjgj</consigne><phrases><phrase>gjgjgj</phrase></phrases></data></content>

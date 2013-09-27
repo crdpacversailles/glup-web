@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<content xmlns:crdp="http://www.crdp.ac-versailles.fr">
+<crdp:data><crdp:parametres><crdp:specifiques><crdp:intervalle_min duree="oui">
+				10
+			</crdp:intervalle_min><crdp:intervalle_max duree="oui">
+				50
+			</crdp:intervalle_max></crdp:specifiques><crdp:neutraliser_premier>
+				non
+		</crdp:neutraliser_premier><crdp:generaux><crdp:score>oui</crdp:score><crdp:chrono type="fixe"> non </crdp:chrono><crdp:musique type="fixe"> non</crdp:musique><crdp:afficher_decompte type="fixe"> non</crdp:afficher_decompte><crdp:duree_chrono> 0 </crdp:duree_chrono><crdp:taille_police> 24 </crdp:taille_police></crdp:generaux></crdp:parametres></crdp:data>
+<crdp:data><crdp:nom_jeu> yry</crdp:nom_jeu><crdp:consigne> ryryry</crdp:consigne><crdp:phrases><crdp:phrase>ryry</crdp:phrase></crdp:phrases></crdp:data></content>

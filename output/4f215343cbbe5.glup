@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glup xmlns="http://www.crdp.ac-versailles.fr">
+  <options jeu="POP-MOTS" langue="fr" largeur="800" hauteur="600">
+    <parametres>
+      <generaux>
+        <taille_police>19</taille_police>
+        <score>oui</score>
+        <musique>oui</musique>
+        <afficher_decompte>oui</afficher_decompte>
+        <chrono>oui</chrono>
+        <duree_chrono>30</duree_chrono>
+      </generaux>
+      <specifiques>
+        <affichage-simultane-min>2</affichage-simultane-min>
+        <affichage-simultane-max>4</affichage-simultane-max>
+        <delai-moyen-entre-mots>1</delai-moyen-entre-mots>
+      </specifiques>
+    </parametres>
+  </options>
+  <contenu exercice="TRIER-LES-MOTS">
+    <nom_jeu> ghjfg</nom_jeu>
+    <consigne> jfgjfgj</consigne>
+    <enonces>
+      <enonce statut="false">gfjgfj</enonce>
+      <enonce statut="false">fgjfgj</enonce>
+    </enonces>
+  </contenu>
+  <mode_emploi>
+    <paragraphe>Les ballons apparaissent et disparaissent à un rythme effréné... Seras-tu assez rapide pour les faire éclater ?</paragraphe>
+    <paragraphe>Mais attention ! N'oublie pas de lire le texte inscrit sur chaque ballon ! Ne crève un ballon que si le texte repond à la consigne...</paragraphe>
+    <paragraphe>Pour chaque ballon qui éclate, si c'est une bonne réponse, tu gagnes un point. Mais si tu t'es trompé, tu perds un point !</paragraphe>
+    <paragraphe>Le jeu s'arrête lorsque tu as trouvé toutes les bonnes réponses...</paragraphe>
+  </mode_emploi>
+</glup>

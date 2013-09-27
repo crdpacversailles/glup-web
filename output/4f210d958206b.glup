@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glup xmlns="http://www.crdp.ac-versailles.fr">
+  <options jeu="MOTS-TRIS" langue="fr">
+    <parametres>
+      <specifiques>
+        <intervalle_min duree="oui">
+				10
+			</intervalle_min>
+        <intervalle_max duree="oui">
+				50
+			</intervalle_max>
+      </specifiques>
+      <neutraliser_premier>
+				non
+		</neutraliser_premier>
+      <generaux>
+        <score>oui</score>
+        <chrono type="fixe"> non </chrono>
+        <musique type="fixe"> non</musique>
+        <afficher_decompte type="fixe"> non</afficher_decompte>
+        <duree_chrono> 0 </duree_chrono>
+        <taille_police> 24 </taille_police>
+      </generaux>
+    </parametres>
+  </options>
+  <contenu exercice="SOULIGNER-LES-MOTS">
+    <nom_jeu> hhh</nom_jeu>
+    <consigne> hhh</consigne>
+    <enonces>
+      <enonce>fghsfh</enonce>
+    </enonces>
+  </contenu>
+  <mode_emploi>
+    <paragraphe>
+		Dans Tetris phrases, les phrases tombent les unes après les autres et s'empilent. Attention, si le haut de la fenêtre est atteint, c'est perdu !
+		</paragraphe>
+    <paragraphe>
+		Pour gagner, il faut faire disparaître les phrases le plus vite possible. Pour cela, clique sur les mots qui répondent à la consigne !
+ 		</paragraphe>
+    <paragraphe>
+		Mais attention : si tu te trompes, le mot va grossir et la phrase va rester bloquée. Elle ne pourra plus descendre...
+ 		</paragraphe>
+    <paragraphe>
+		Si tu trouves un mot correct et qu'il devient vert, c'est qu'il y a encore d'autres mots à trouver dans la phrase.
+ 		</paragraphe>
+    <paragraphe>
+		Lorsqu'il ne reste plus de phrases, c'est gagné ! Tu connaîtras alors ton score. Et si tu réussis le "zéro faute", une surprise t'attend !
+ 		</paragraphe>
+  </mode_emploi>
+</glup>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<project name="" company="" manager="" phase="" project-start="20120206T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases>
+    <phase name="Nouvel exercice, nouveau jeu"/>
+    <phase name="Persistance des donn&#xE9;es"/>
+  </phases>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Travaill&#xE9;" description="Un jour de travail normal"/>
+      <day-type id="1" name="Ch&#xF4;m&#xE9;" description="Un jour ch&#xF4;m&#xE9; normal"/>
+      <day-type id="2" name="Utiliser la base" description="Utilise un jour du calendrier de base"/>
+    </day-types>
+    <calendar id="1" name="D&#xE9;faut">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200"/>
+          <interval start="1300" end="1700"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days/>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="conception g&#xE9;n&#xE9;rale" note="" work="28800" start="20120206T000000Z" end="20120206T170000Z" work-start="20120206T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="2" name="validation p&#xE9;dagogique" note="" work="28800" start="20120206T170000Z" end="20120207T170000Z" work-start="20120207T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="1" type="FS"/>
+      </predecessors>
+    </task>
+    <task id="3" name="mise en place environnement" note="" work="57600" start="20120206T000000Z" end="20120209T170000Z" work-start="20120206T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="4" name="conception d&#xE9;taill&#xE9;e" note="" work="57600" start="20120207T170000Z" end="20120209T170000Z" work-start="20120208T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="2" type="FS"/>
+      </predecessors>
+    </task>
+    <task id="5" name="graphisme" note="" work="28800" start="20120207T170000Z" end="20120213T081320Z" work-start="20120208T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="2" type="FS"/>
+      </predecessors>
+    </task>
+    <task id="6" name="d&#xE9;veloppement" note="" work="288000" start="20120213T081320Z" end="20120227T081320Z" work-start="20120213T081320Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="5" type="FS"/>
+      </predecessors>
+    </task>
+    <task id="7" name="tests" note="" work="24300" start="20120227T081320Z" end="20120227T155820Z" work-start="20120227T081320Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="6" type="FS"/>
+      </predecessors>
+    </task>
+    <task id="8" name="int&#xE9;gration " note="" work="28800" start="20120227T081320Z" end="20120228T081320Z" work-start="20120227T081320Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="6" type="FS"/>
+      </predecessors>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources>
+    <resource id="1" name="Quentin" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="2" name="Joachim" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="3" name="Wahid" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="4" name="Testeurs" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+  </resources>
+  <allocations>
+    <allocation task-id="6" resource-id="1" units="100"/>
+    <allocation task-id="3" resource-id="1" units="50"/>
+    <allocation task-id="5" resource-id="3" units="33"/>
+  </allocations>
+</project>

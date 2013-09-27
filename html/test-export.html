@@ -1,0 +1,39 @@
+<div class="corps_de_page page_export" [POS_DEPART]>
+	<h1>6. {TEST-EXPORT-TITRE} </h1>
+	<h2>{TEST-EXPORT-INVITATION} </h2>
+	<div id="working" class="icone_working" style="display:none"><img src="img/working.gif">
+	</div>
+	[MENTION_JEU_INDISPONIBLE]
+	<div class="colonne">
+		<span id="bouton_export_test" class="bouton_texte bouton_export_test [JEU_ACTIF]">{BOUTON-EXPORT-TEST}</span>
+		<p>
+			{TEST-EXPORT-EXPLICATION-TEST}
+		</p><div id="insertion_lien_jeu"></div>
+	</div>
+	<div class="colonne" >
+		<span id="bouton_export_telechargement" class="bouton_texte bouton_export_telechargement [JEU_ACTIF]">{BOUTON-EXPORT-TELECHARGEMENT}</span>
+		<p>
+			{TEST-EXPORT-EXPLICATION-TELECHARGEMENT}
+		</p>
+	</div>
+	<div class="colonne" >
+		<span id="bouton_export_donnees" class="bouton_texte bouton_export_donnees [JEU_ACTIF]">{BOUTON-EXPORT-DONNEES}</span>
+		<p>
+			{TEST-EXPORT-EXPLICATION-EXPORT-DONNEES}
+		</p>
+	</div>
+	<div class="colonne" >
+		<input type="file" value="{BOUTON-IMPORT-DONNEES}" id="bouton_import_donnees" class="bouton_texte bouton_import_donnees [JEU_ACTIF]" />
+		<span  ></span>
+		<p>
+			{TEST-EXPORT-EXPLICATION-IMPORT-DONNEES}
+		</p>
+	</div>
+</div>
+</div>
+<input type="hidden" id="exercice_vide" value="[EXERCICE_VIDE]" />
+<input type="hidden" id="message_exercice_vide" value="{TEST-EXPORT-AVERTISSEMENT-VIDE}" />
+<input type="hidden" id="message_duree_compilation" value="{TEST-EXPORT-AVERTISSEMENT-DUREE}" />
+<input type="hidden" id="message_import_reussi" value="{TEST-EXPORT-AVERTISSEMENT-IMPORT-SUCCES}" />
+<input type="hidden" id="message_import_echec" value="{TEST-EXPORT-AVERTISSEMENT-IMPORT-ECHEC}" />
+<input type="hidden" id="invitation_lien_jeu" value="{TEST-EXPORT-INVITATION-LIEN-JEU}" />
